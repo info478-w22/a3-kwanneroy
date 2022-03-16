@@ -1,5 +1,9 @@
 # load your libraries
-library("shiny")
+library(tidyverse)
+library(dplyr)
+library(shiny)
+library(plotly)
+library(EpiModel)
 
 # read in your files (make sure to double check path)
 source("app_ui.R")
